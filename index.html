@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--added bootstrap-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/style.css">
     <title>Weather App</title>
 </head>
 <body>
@@ -23,30 +23,30 @@
           <input type="text" name="text" class="form-searchinput" id="form-searchinput" placeholder="Search City Here">
           <input type="submit" name="submit" class= "searchBtn" value="Search">
       </form>
-        <!--city search history list-->
+        <!--city search history list items-->
         <div class="search-history col-lg-3 col-md-12 col-sm-12" id="search-history" style="width: 18rem;">
           <ul class="list-group list-group-flush">
-            <li class="list-group-item"></li>
-            <li class="list-group-item"></li>
-            <li class="list-group-item"></li>
+            <li class="list-group-item">search history here</li>
+            <li class="list-group-item">search history here</li>
+            <li class="list-group-item">search history here</li>
           </ul>
-          <!--city-->
-          <div class="row" id="city">
+          <!--city big item-->
+          <div class="city row">
             <div class="col-sm-6">
               <div class="card">
                 <div class="card-body">
-                  <h5 class="card-title"></h5>
+                  <h5 class="card-title">City</h5>
                   <p class="card-text"></p>
                 </div>
               </div>
             </div>
         </div>
-        <!--5 day forecast-->
-        <div class="row" id="five-day">
+        <!--5 day forecast day cards-->
+        <div class= "five-day row">
           <div class="col-sm-6">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title"></h5>
+                <h5 class="card-title">Day 1</h5>
                 <p class="card-text"></p>
               </div>
             </div>
@@ -54,7 +54,7 @@
           <div class="col-sm-6">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title"></h5>
+                <h5 class="card-title">Day 2</h5>
                 <p class="card-text"></p>
               </div>
             </div>
@@ -62,7 +62,7 @@
           <div class="col-sm-6">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title"></h5>
+                <h5 class="card-title">Day 3</h5>
                 <p class="card-text"></p>
               </div>
             </div>
@@ -70,7 +70,7 @@
                 <div class="col-sm-6">
                   <div class="card">
                     <div class="card-body">
-                      <h5 class="card-title"></h5>
+                      <h5 class="card-title">Day 4</h5>
                       <p class="card-text"></p>
                     </div>
                   </div>
@@ -78,7 +78,7 @@
                 <div class="col-sm-6">
                   <div class="card">
                     <div class="card-body">
-                      <h5 class="card-title"></h5>
+                      <h5 class="card-title">Day 5</h5>
                       <p class="card-text"></p>
                     </div>
                   </div>
@@ -86,6 +86,6 @@
         </div>
         <!--added javascriprt and jquery links-->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="script.js"></script>
+        <script src="assets/script.js"></script>
 </body>
 </html>

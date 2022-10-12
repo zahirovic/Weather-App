@@ -6,17 +6,13 @@ var history = ("search-history")
 var queryURL = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + APIKey;
 
 //local storage
-$(".searchBtn").on("click", function (event) {
+$('.searchBtn').on('click', function (event) {
     var cityItem =
     event.target.parentElement.previousElementSibling.children[0].value;
   localStorage.setItem(event.target.attributes[0].value, history);
 });
 
-ajax({
-  url: queryURL,
-  method: "GET"
-});
- 
+
 //fetch the api url
 fetch(queryURL)
 .then(function(response) {
