@@ -30,7 +30,7 @@ This website was created to practice the following skills:
 - [LogRocket](https://blog.logrocket.com/localstorage-javascript-complete-guide/) for help on local storage
 - [W3Schools](https://www.w3schools.com/jsref/prop_win_localstorage.asp) for help on local storage
 - [MDNDocs on using Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
-- [W3Schools on creating a earch bar/button](https://www.w3schools.com/howto/howto_css_search_button.asp)
+- [W3Schools on creating a search bar/button](https://www.w3schools.com/howto/howto_css_search_button.asp)
 - [OpenWeatherMap](https://openweathermap.org/forecast5) for their weather forecast API
 
 ## Features
