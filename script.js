@@ -12,7 +12,6 @@ $(".searchBtn").on("click", function (event) {
   localStorage.setItem(event.target.attributes[0].value, history);
 });
 
-
 //fetch the api url
 fetch(queryURL)
 .then(function(response) {
