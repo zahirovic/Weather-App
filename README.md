@@ -21,7 +21,7 @@ This website was created to practice the following skills:
 - The actual product can be found **[here](https://zahirovic.github.io/Weather-App/)** and should look along the lines of this depending on device screen size:
 
 
-![Weather Dashboard example](Develop/assets/weather.png)
+![Weather Dashboard example](weather.png)
 
 
 
