@@ -42,7 +42,7 @@ padding: 20px;
     padding: 20px;
     justify-content: center;
     text-align: center;
-
+flex-direction: column;
 }
 
 /*added five-day forecast*/
@@ -51,4 +51,5 @@ padding: 20px;
     margin: 20px;
     text-align: center;
     justify-content: center;
+    flex-direction: column;
 }
